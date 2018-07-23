@@ -14,6 +14,12 @@ Run Logstash with taxi.conf configuration file for each month
 tail +2 yellow_tripdata_2016-09.csv | /logstash-6.3.1/bin/logstash -f taxi.conf
 ```
 
+Go to Kibana, under Management create an index pattern called 'nyc-taxi-*'
+
 ## Import Kibana visualizations
 
 In Kibana, Managmenet, Saved Objects, Import taxi.json file
+
+## Import Machine Learning calendar
+
+In Machine Learning, Go to Settings and import holiday.ics file to import 2016 holidays
