@@ -2,7 +2,7 @@
 NYC Taxi demo with Elasticsearch and Machine Learning
 
 ## Download Taxi data
-Go to http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml and download the CSV file for Sept-Dec 2016 (Yellow cabs).
+Go to http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml and download the CSV file for Oct-Dec 2016 (Yellow cabs).
 
 ## Use Logstash to import into Elasticsearch
 
