@@ -10,9 +10,9 @@ Change username and password in taxi.conf file in output section
 
 Run Logstash with taxi.conf configuration file for each month
 
-'''
+```
 tail +2 yellow_tripdata_2016-09.csv | /logstash-6.3.1/bin/logstash -f taxi.conf
-'''
+```
 
 ## Import Kibana visualizations
 
