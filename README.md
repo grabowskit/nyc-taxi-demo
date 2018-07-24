@@ -18,8 +18,6 @@ Go to Kibana, under Management create an index pattern called 'nyc-taxi-*'
 
 ## Import Kibana visualizations
 
-In Kibana, Managmenet, Saved Objects, Import taxi.json file
+In Kibana, Management, Saved Objects, Import taxi.json file
 
-## Import Machine Learning calendar
 
-In Machine Learning, Go to Settings and import holiday.ics file to import 2016 holidays
